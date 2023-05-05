@@ -40,7 +40,7 @@ class ASPayload
         return (isset($this->_instance->email)) ? $this->_instance->email : null;
     }
 
-    public function getUser()
+    public function getId()
     {
         return (isset($this->_instance->sub)) ? $this->_instance->sub : null;
     }
